@@ -1,0 +1,33 @@
+.Cards{
+    width: 50%;
+    height: 50vh;
+    background: linear-gradient(to bottom, rgb(222, 241, 241) 30%,  rgb(255, 255, 255) 20%);
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    padding-top:50px; 
+    align-items: center;
+    justify-content: space-around;
+
+}
+.icon {
+    width: 8%;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}    
+   
+#profil_photo {
+    border-radius: 100px;
+}
+.btn-group {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.btn {
+    width: 25%;
+}

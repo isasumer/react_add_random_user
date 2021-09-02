@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.App{
+    background: linear-gradient(to bottom,rgb(253, 189, 71) 50%, rgb(222, 241, 241) 50%);
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#cw_logo{
+width: 10%;
+}
+#design_logo{
+width: 50px;
+height: 50px;
+}
+.bottom{
+    border:1px solid rgb(128, 5, 121);
+    background: rgb(250, 250, 250) ;
+    width:80%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color:rgb(128, 5, 121);
+    padding: 15px 40px;
+    font-size: 20px;
+}
