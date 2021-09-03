@@ -8,7 +8,6 @@
     padding-top:50px; 
     align-items: center;
     justify-content: space-around;
-
 }
 .icon {
     width: 8%;
@@ -18,7 +17,6 @@
     flex-direction: row;
     justify-content: space-evenly;
 }    
-   
 #profil_photo {
     border-radius: 100px;
 }

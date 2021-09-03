@@ -12,8 +12,7 @@ import axios from "axios";
 // import { is } from "@babel/types";
 
 const Cards = () => {
-    // const [isVisible, setVisible] = useState(true)
-    // const [itemList, setItemList] = useState([])
+
     const [itemList, setItemList] = useState([]);
     const [isVisible, setVisible] = useState(true);
 
@@ -22,9 +21,7 @@ const Cards = () => {
        .catch((err)=>console.log(err))
         
     },[isVisible])
-//    const itemList1 = Object.keys(itemList).map((key) => {
-//         return key= {key}
-//     } )
+
 
 function showText(txt) {
     const text = "My"+ txt+  "is";
