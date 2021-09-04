@@ -9,62 +9,39 @@ import phone from "../assets/phone.svg"
 import gwoman from "../assets/growing-up-woman.svg"
 import map from "../assets/map.png"
 import axios from "axios";
-// import { is } from "@babel/types";
+import { computeHeadingLevel } from "@testing-library/dom";
+
 
 const Cards = () => {
 
     const [itemList, setItemList] = useState([]);
     const [isVisible, setVisible] = useState(true);
 
+
+
+    console.log(itemList[0]?.gender)
     useEffect (async ()=> {
-       await axios.get("https://randomuser.me/api/").then((res)=>setItemList(res.data.results[0]))
+       await axios.get("https://randomuser.me/api/").then((res)=>setItemList(res.data.results))
        .catch((err)=>console.log(err))
         
     },[isVisible])
 
-
 function showText(txt) {
+
     const text = "My"+ txt+  "is";
     document.querySelector(".info").innerHTML=text;
-    
-    switch (txt.trim()) {
-        case "name":
-            const name=true;
-            document.querySelector(".isa").innerHTML=<span> name || "Clarusway"</span>;
-            console.log(name);
-          break;
-        case "email":
-            document.querySelector(".my").innerHTML=itemList.email || "Clarusway";
-          break;
-        case "age":
-            document.querySelector(".my").innerHTML=itemList.dob?.age || "Clarusway";
-          break;
-        case "city":
-            document.querySelector(".my").innerHTML=itemList.location?.city || "Clarusway";
-          break;
-        case "phone":
-            document.querySelector(".my").innerHTML=itemList?.phone || "Clarusway";
-          break;
-        case "password":
-            document.querySelector(".my").innerHTML=itemList.login?.password || "Clarusway";
-          break;
-        
-      }
-    document.querySelector(".my").innerHTML=itemList.info;
-    
 }
   return (
-    
+  
     <div className="Cards">
-      <img id="profil_photo" src={itemList.picture?.large || null } alt="photo" />
+      <img id="profil_photo" src={itemList[0]?.picture?.large || null } alt="photo" />
       <div className="infos">
-          <h4 className="info"></h4>
-          <h3 className="isa"></h3>
-          
+          <h4 className="info">üstteki</h4>
+          <h3 className="isa">{itemList[0]?.gender}</h3>
       </div>
       <div className="icons">
         <img className="icon" src={true ? man: woman} alt="name" onMouseOver={()=>
-                        showText(" name ")}/>
+                        showText(" name ", )}/>
         <img className="icon" src={mail} alt="mail" onMouseOver={()=>
                         showText(" email ")} />
         <img className="icon" src={gwoman} alt="gwoman" onMouseOver={()=>
