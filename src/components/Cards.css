@@ -29,3 +29,13 @@
 .btn {
     width: 25%;
 }
+.userListTable {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:36rem;
+}
+th {
+    width: 24%;
+    background-color: rgb(253, 189, 71);
+}
