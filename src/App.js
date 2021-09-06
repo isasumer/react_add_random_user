@@ -7,9 +7,8 @@ const App = () => {
   
   return (
 <div className="App">
-    <img src={cw} alt="cw_logo" id="cw_logo" />
+    <Logo/>
     <Cards  />
-
 </div>
   )
 }

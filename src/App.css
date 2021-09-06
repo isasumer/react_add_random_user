@@ -4,7 +4,7 @@
 }
 
 .App{
-    overflow-y:scroll ;
+    overflow:auto ; 
     background: linear-gradient(to bottom,rgb(253, 189, 71) 50%, rgb(222, 241, 241) 50%);
     box-sizing:border-box;
     width:100%;
@@ -15,5 +15,6 @@
     align-items: center;
 }
 #cw_logo{
-width: 10%;
+/* object-fit: cover; */
+height: 100px;
 }
