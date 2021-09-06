@@ -24,30 +24,6 @@ function Card() {
     myApi();
   }, []);
 
-  //oliver çözümü
-
-  // const {phone, email, gender} = cards[0];
-  // const {large : image} =  cards[0].picture;
-  // const {password} =  cards[0].login;
-  // const {first,last} =  cards[0].name;
-  // const {name : street} =  cards[0].location.street
-  // const {age} =  cards[0].dob;
-
-  // const newPerson = {
-  //   first,
-  //   email,
-  //   phone,
-  //   age
-  // };
-
-  // const addPerson = () => {
-  //   // console.log(personArray.filter((user)=> user.email === person.email ))
-  //   if(personArray.filter((user)=> user.email == person.email).length > 0){
-  //     alert('var zaten...')
-  //   }else{
-  //     setPersonArray([...personArray, person]);
-  //   }
-  // };
   const myApi = async () => {
     let resultApi = await getMyApi();
     setCards(resultApi);

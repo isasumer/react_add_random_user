@@ -1,41 +1,88 @@
-.Cards{
-    width: 50%;
-    height: 50vh;
-    background: linear-gradient(to bottom, rgb(222, 241, 241) 30%,  rgb(255, 255, 255) 20%);
-    border: 1px solid red;
-    display: flex;
-    flex-direction: column;
-    padding-top:50px; 
-    align-items: center;
-    justify-content: space-around;
+.Cards {
+  width: 50%;
+  min-height: 50%;
+  background: linear-gradient(
+    to bottom,
+    rgb(222, 241, 241) 30%,
+    rgb(255, 255, 255) 20%
+  );
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  align-items: center;
+  justify-content: space-around;
+  overflow: hidden;
 }
 .icon {
-    width: 8%;
+  width: 8%;
 }
 .icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}    
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 10px 0;
+}
 #profil_photo {
-    border-radius: 100px;
+  border-radius: 100px;
+}
+.photo_box:hover img {
+  border-radius: 100px;
+  transform: scale(1.25);
 }
 .btn-group {
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 .btn {
-    width: 25%;
+  width: 30%;
+  background-color: rgb(189, 250, 139);
+  font-size: 14px;
+  font-weight: bold;
+  padding: 3px;
+  transition-duration: 0.4s;
+  margin: 10px 0;
 }
-.userListTable {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    width:36rem;
+tr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 36rem;
 }
 th {
-    width: 24%;
-    background-color: rgb(253, 189, 71);
+  width: 24%;
+  background-color: rgb(253, 189, 71);
+}
+.btn:hover {
+  background-color: orange;
+  color: white;
+}
+.infos {
+  margin: 10px 0;
+}
+
+#design_logo {
+  width: 50px;
+  height: 50px;
+}
+.bottom {
+  background: rgb(250, 250, 250);
+  width: 150%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  padding: 15px 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+#design {
+  color: purple;
+}
+#ed8en {
+  color: gray;
 }
