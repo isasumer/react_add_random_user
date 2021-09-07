@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/react_add_random_user/static/css/main.2e9661c2.chunk.css",
+    "main.js": "/react_add_random_user/static/js/main.0fc38e1b.chunk.js",
+    "main.js.map": "/react_add_random_user/static/js/main.0fc38e1b.chunk.js.map",
+    "runtime-main.js": "/react_add_random_user/static/js/runtime-main.55aa88bf.js",
+    "runtime-main.js.map": "/react_add_random_user/static/js/runtime-main.55aa88bf.js.map",
+    "static/js/2.1a3629eb.chunk.js": "/react_add_random_user/static/js/2.1a3629eb.chunk.js",
+    "static/js/2.1a3629eb.chunk.js.map": "/react_add_random_user/static/js/2.1a3629eb.chunk.js.map",
+    "static/js/3.900df039.chunk.js": "/react_add_random_user/static/js/3.900df039.chunk.js",
+    "static/js/3.900df039.chunk.js.map": "/react_add_random_user/static/js/3.900df039.chunk.js.map",
+    "index.html": "/react_add_random_user/index.html",
+    "static/css/main.2e9661c2.chunk.css.map": "/react_add_random_user/static/css/main.2e9661c2.chunk.css.map",
+    "static/js/2.1a3629eb.chunk.js.LICENSE.txt": "/react_add_random_user/static/js/2.1a3629eb.chunk.js.LICENSE.txt",
+    "static/media/cw.22310668.svg": "/react_add_random_user/static/media/cw.22310668.svg",
+    "static/media/design.9f215bce.svg": "/react_add_random_user/static/media/design.9f215bce.svg",
+    "static/media/growing-up-man.5024153b.svg": "/react_add_random_user/static/media/growing-up-man.5024153b.svg",
+    "static/media/growing-up-woman.a1585842.svg": "/react_add_random_user/static/media/growing-up-woman.a1585842.svg",
+    "static/media/mail.42e0750e.svg": "/react_add_random_user/static/media/mail.42e0750e.svg",
+    "static/media/man.4b684e29.svg": "/react_add_random_user/static/media/man.4b684e29.svg",
+    "static/media/map.ae1ce11d.png": "/react_add_random_user/static/media/map.ae1ce11d.png",
+    "static/media/padlock.8d2c33d2.svg": "/react_add_random_user/static/media/padlock.8d2c33d2.svg",
+    "static/media/phone.d017e1ae.svg": "/react_add_random_user/static/media/phone.d017e1ae.svg",
+    "static/media/woman.05242306.svg": "/react_add_random_user/static/media/woman.05242306.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55aa88bf.js",
+    "static/js/2.1a3629eb.chunk.js",
+    "static/css/main.2e9661c2.chunk.css",
+    "static/js/main.0fc38e1b.chunk.js"
+  ]
+}
