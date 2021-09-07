@@ -1,5 +1,5 @@
 .Cards {
-  border:1px solid blue;
+  border: 1px solid blue;
   width: 50%;
   /* min-height: 50%; */
   background: linear-gradient(
@@ -9,7 +9,14 @@
   );
   display: flex;
   flex-direction: column;
-  padding-top: 50px;
+  padding-top: 30px;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+.Card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
 }
@@ -45,48 +52,22 @@
   transition-duration: 0.4s;
   margin: 10px 0;
 }
-tr {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 36rem;
-}
-th {
-  width: 24%;
-  background-color: rgb(253, 189, 71);
-}
 .btn:hover {
   background-color: orange;
   color: white;
 }
+th {
+  margin: 5px;
+  background-color: rgb(253, 189, 71);
+}
 .infos {
   margin: 10px 0;
   height: 40px;
-  border:1px solid red;
   text-align: center;
-  
 }
-
-#design_logo {
-  width: 50px;
-  height: 50px;
-}
-.bottom {
-  background: rgb(250, 250, 250);
-  width: 150%;
+.addUserList {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-p {
-  padding: 15px 40px;
-  font-size: 20px;
-  font-weight: bold;
-}
-#design {
-  color: purple;
-}
-#ed8en {
-  color: gray;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
 }
